@@ -1,0 +1,146 @@
+@media screen and (max-width: 750px) {
+	.columns {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+section .big{
+	width: 100% !important;
+	float: none;
+}
+
+	section .small{
+	width: 50% !important;
+	float: left;
+}
+
+	section .floated-block{
+	float: none;
+	width: 100%!important;	
+}
+
+	section .no-float{
+	float: left!important;
+	width: 50%!important;
+
+}
+
+	#floated-div div{
+		width: 98%;
+		margin-left: 1%;
+		float: none;
+	}
+
+	.banner div{
+		width: 98%;
+		margin-left: 1%;
+		float: none;
+	}
+
+	#page-intro{
+	width: 90%;
+}
+
+	#page-intro p{
+	font-size: 1em;
+}
+
+	#contact ul{
+		float: none;
+		width: 100%;
+	}
+
+	.mail li{
+		text-align: left;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.navbar{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		width: 100%;
+	}
+	.columns {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+	}
+
+	section .small{
+	width: 100% !important;
+	float: none;
+}
+
+	section .no-float{
+	float: none!important;
+	width: 100%!important;
+}
+
+	#page-intro{
+	width: 100%;
+	margin-top: 50px;
+}
+
+	#page-intro p{
+	font-size: .8em;
+	padding: 5px;
+}
+
+	#floated-div{
+		padding: 5px;
+	}
+
+	.banner{
+	padding: 10px;
+}
+
+	.banner div{
+	margin-bottom: 10px;
+}
+
+	.banner{
+	padding: 10px;	
+}
+
+	#main{
+	width: 98%;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+	#about-text p{
+	margin: 1%;	
+	line-height: 20px;
+	padding: 5px;
+}
+
+	.footer{
+		position: static;
+		bottom: 0px;
+		left: 0px;
+		background-color: #1c1c1c;
+		min-height: 90px;
+		text-align: left;
+	}
+
+	footer{
+		min-height: 90px;
+		text-align: left;
+	}
+
+	#gallary_container{
+	padding-bottom: 20px;
+}
+
+	.camera {
+    text-align: center;
+    margin: 70px 0px 20px;
+    color: #c5c5c5;
+}
+
+}
